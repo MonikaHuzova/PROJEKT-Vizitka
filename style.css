@@ -14,3 +14,96 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+.nunito-font-regular {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nunito-font-bold {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body{
+    background-color:#b2bec3;
+    padding-top: 150px;
+}
+
+.box {
+
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(55, 53, 53, 0.4);
+    position: relative;
+    
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    right: -75px;
+    top: -75px;
+    box-shadow: 5px 5px 10px rgba(55, 53, 53, 0.4);
+
+    
+}
+
+h1{
+    color: #d63031;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 36px;
+    
+}
+
+p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+        display: block;
+    }
+    
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    }
+
+.twitter{
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+.facebook{
+    background-color:#3b5998;
+    
+}
+.twitter:hover{
+    background-color:#0b7bc1;
+
+}
+.facebook:hover{
+    background-color:#2b406e;
+}
